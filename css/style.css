@@ -7,7 +7,8 @@ body {
 
 .main-box {
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
   .main-box .side-text {
     transform: rotate(270deg) translateX(-35rem);
     float: left; }
@@ -73,6 +74,28 @@ body {
         display: block;
         color: #ffb2b2;
         font-size: 3rem; }
+  .main-box .brands-box {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 15%;
+    height: 50%; }
+    .main-box .brands-box .brand-box {
+      width: 15%;
+      height: 30%;
+      margin: 0 auto; }
+      .main-box .brands-box .brand-box .brand {
+        height: 30%; }
+  .main-box .socials-box {
+    position: absolute;
+    top: 85%;
+    right: 5%; }
+    .main-box .socials-box .socials {
+      text-decoration: none;
+      margin-right: 1rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #000; }
 
 .navigation {
   display: flex;
