@@ -1,0 +1,28 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+
+  .logo {
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .menu-box {
+    height: 3rem;
+
+    .menu {
+      padding: 2px;
+
+      span {
+      display: block;
+      height: 3px;
+      width: 4rem;
+      background-color: #000;
+      margin-bottom: 5px;
+    }
+    }
+  }
+}
